@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LARA-DiT: large or regenerated artifacts
+*.pt
+*.npy
+outputs*/
+cache/
+evaluation/
+bench_tmp/
+results/original_runs/scalars.csv

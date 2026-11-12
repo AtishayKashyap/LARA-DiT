@@ -1,0 +1,19 @@
+# Install torch/torchvision for your CUDA version first (developed on PyTorch 2.4.0, CUDA 12.5). Do not reinstall them on a managed cluster image.
+timm==0.9.16
+open-clip-torch==2.24.0
+diffusers==0.27.2
+transformers==4.38.2
+accelerate==0.28.0
+huggingface_hub==0.23.2
+clean-fid==0.1.35
+lpips==0.1.4
+torchmetrics==1.3.2
+einops==0.7.0
+tensorboard==2.16.2
+tqdm>=4.66.0
+Pillow>=10.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+kaggle>=1.7.4
+pandas>=2.0
+pytest>=7.0

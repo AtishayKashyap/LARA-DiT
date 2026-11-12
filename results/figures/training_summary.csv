@@ -1,0 +1,5 @@
+run,diff_final,diff_last10k_mean,diff_last10k_std,align_early_last10k,align_mid_last10k,align_deep_last10k
+baseline,0.28127,0.281782,0.002517,,,
+repa,0.282787,0.283542,0.002562,0.186012,,
+lara_dit,0.283723,0.284351,0.002563,0.197864,0.066203,0.037551
+ablation,0.29115,0.291699,0.002575,0.223397,0.176334,0.167995

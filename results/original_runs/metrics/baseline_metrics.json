@@ -1,0 +1,10 @@
+{
+  "samples": 10000,
+  "fid": 44.65935004579637,
+  "is_mean": 25.8060359954834,
+  "is_std": 0.7071370482444763,
+  "hf_lpips_label_matched": 0.4830942526221656,
+  "hf_lpips_definition": "AlexNet LPIPS on top-25% Laplacian pixels, label-matched validation references",
+  "inception_batch_size": 32,
+  "lpips_batch_size": 32
+}

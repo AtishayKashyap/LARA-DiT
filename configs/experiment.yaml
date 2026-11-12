@@ -1,0 +1,22 @@
+# Frozen experimental specification derived from the capstone report.
+# CLI arguments may override operational settings, but do not change these
+# matched-compute fields for the four final runs.
+image_size: 256
+latent_size: 32
+latent_channels: 4
+num_classes: 100
+batch_size: 128
+total_steps: 200000
+learning_rate: 0.0001
+optimizer: AdamW
+seed: 42
+lambda0: 0.5
+gamma_early: 2.0
+gamma_mid: 1.5
+gamma_deep: 1.0
+num_timesteps: 1000
+cosine_s: 0.008
+cfg_scale: 1.5
+fid_samples: 10000
+fid_is_checkpoints: [50000, 100000, 150000, 200000]
+lpips_checkpoints: [100000, 200000]
